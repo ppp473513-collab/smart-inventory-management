@@ -1,0 +1,441 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* =====================================================
+   SMART INVENTORY - GLOBAL UI THEMES
+   ===================================================== */
+
+
+/* =====================================================
+   USER THEME
+   TEAL + EMERALD
+   ===================================================== */
+
+.user-theme {
+  --primary: #0d9488;
+  --primary-hover: #0f766e;
+  --primary-light: #ccfbf1;
+  --secondary: #10b981;
+}
+
+/* Blue → Teal */
+
+.user-theme .bg-blue-600 {
+  background-color: #0d9488 !important;
+}
+
+.user-theme .bg-blue-700 {
+  background-color: #0f766e !important;
+}
+
+.user-theme .bg-blue-500 {
+  background-color: #14b8a6 !important;
+}
+
+.user-theme .bg-blue-50 {
+  background-color: #f0fdfa !important;
+}
+
+.user-theme .bg-blue-100 {
+  background-color: #ccfbf1 !important;
+}
+
+.user-theme .text-blue-600 {
+  color: #0d9488 !important;
+}
+
+.user-theme .text-blue-700 {
+  color: #0f766e !important;
+}
+
+.user-theme .text-blue-500 {
+  color: #14b8a6 !important;
+}
+
+.user-theme .text-blue-400 {
+  color: #2dd4bf !important;
+}
+
+.user-theme .border-blue-200 {
+  border-color: #99f6e4 !important;
+}
+
+.user-theme .border-blue-500 {
+  border-color: #14b8a6 !important;
+}
+
+
+/* Hover */
+
+.user-theme .hover\:bg-blue-700:hover {
+  background-color: #0f766e !important;
+}
+
+.user-theme .hover\:bg-blue-600:hover {
+  background-color: #0d9488 !important;
+}
+
+.user-theme .hover\:text-blue-600:hover {
+  color: #0d9488 !important;
+}
+
+
+/* Focus */
+
+.user-theme .focus\:border-blue-500:focus {
+  border-color: #14b8a6 !important;
+}
+
+.user-theme .focus\:ring-blue-500:focus {
+  --tw-ring-color: #14b8a6 !important;
+}
+
+
+/* =====================================================
+   ADMIN THEME
+   OBSIDIAN + GOLD + CYAN
+   ===================================================== */
+
+.admin-theme {
+  --admin-primary: #f59e0b;
+  --admin-hover: #d97706;
+  --admin-light: #451a03;
+  --admin-cyan: #06b6d4;
+}
+
+
+/* Background */
+
+.admin-theme .bg-slate-950 {
+  background-color: #09090b !important;
+}
+
+.admin-theme .bg-slate-900 {
+  background-color: #18181b !important;
+}
+
+.admin-theme .bg-slate-800 {
+  background-color: #27272a !important;
+}
+
+.admin-theme .bg-zinc-950 {
+  background-color: #09090b !important;
+}
+
+.admin-theme .bg-zinc-900 {
+  background-color: #18181b !important;
+}
+
+
+/* Blue → Gold */
+
+.admin-theme .bg-blue-600 {
+  background-color: #f59e0b !important;
+}
+
+.admin-theme .bg-blue-700 {
+  background-color: #d97706 !important;
+}
+
+.admin-theme .bg-blue-500 {
+  background-color: #f59e0b !important;
+}
+
+.admin-theme .bg-blue-50 {
+  background-color: #fffbeb !important;
+}
+
+.admin-theme .bg-blue-100 {
+  background-color: #fef3c7 !important;
+}
+
+
+/* Text */
+
+.admin-theme .text-blue-600 {
+  color: #f59e0b !important;
+}
+
+.admin-theme .text-blue-700 {
+  color: #d97706 !important;
+}
+
+.admin-theme .text-blue-500 {
+  color: #f59e0b !important;
+}
+
+.admin-theme .text-blue-400 {
+  color: #fbbf24 !important;
+}
+
+
+/* Borders */
+
+.admin-theme .border-blue-200 {
+  border-color: #fcd34d !important;
+}
+
+.admin-theme .border-blue-500 {
+  border-color: #f59e0b !important;
+}
+
+
+/* Hover */
+
+.admin-theme .hover\:bg-blue-700:hover {
+  background-color: #d97706 !important;
+}
+
+.admin-theme .hover\:bg-blue-600:hover {
+  background-color: #f59e0b !important;
+}
+
+.admin-theme .hover\:text-blue-600:hover {
+  color: #f59e0b !important;
+}
+
+
+/* Focus */
+
+.admin-theme .focus\:border-blue-500:focus {
+  border-color: #f59e0b !important;
+}
+
+.admin-theme .focus\:ring-blue-500:focus {
+  --tw-ring-color: #f59e0b !important;
+}
+
+
+/* =====================================================
+   ADMIN SURFACE
+   ===================================================== */
+
+.admin-theme {
+  color: #f4f4f5;
+}
+
+.admin-theme .bg-white {
+  background-color: #18181b !important;
+}
+
+.admin-theme .bg-slate-50 {
+  background-color: #09090b !important;
+}
+
+.admin-theme .border-slate-200 {
+  border-color: #3f3f46 !important;
+}
+
+.admin-theme .border-slate-300 {
+  border-color: #52525b !important;
+}
+
+.admin-theme .text-slate-900 {
+  color: #fafafa !important;
+}
+
+.admin-theme .text-slate-800 {
+  color: #f4f4f5 !important;
+}
+
+.admin-theme .text-slate-700 {
+  color: #e4e4e7 !important;
+}
+
+.admin-theme .text-slate-600 {
+  color: #d4d4d8 !important;
+}
+
+.admin-theme .text-slate-500 {
+  color: #a1a1aa !important;
+}
+
+.admin-theme .text-slate-400 {
+  color: #a1a1aa !important;
+}
+
+
+/* =====================================================
+   ADMIN TABLES
+   ===================================================== */
+
+.admin-theme table thead {
+  background-color: #27272a !important;
+}
+
+.admin-theme table tbody tr:hover {
+  background-color: #27272a !important;
+}
+
+
+/* =====================================================
+   ADMIN INPUTS
+   ===================================================== */
+
+.admin-theme input,
+.admin-theme select,
+.admin-theme textarea {
+  background-color: #18181b;
+  color: #f4f4f5;
+  border-color: #3f3f46;
+}
+
+.admin-theme input::placeholder,
+.admin-theme textarea::placeholder {
+  color: #71717a;
+}
+
+.admin-theme input:focus,
+.admin-theme select:focus,
+.admin-theme textarea:focus {
+  border-color: #f59e0b;
+  outline: none;
+}
+
+
+/* =====================================================
+   ADMIN SCROLLBAR
+   ===================================================== */
+
+.admin-theme ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.admin-theme ::-webkit-scrollbar-track {
+  background: #09090b;
+}
+
+.admin-theme ::-webkit-scrollbar-thumb {
+  background: #52525b;
+  border-radius: 10px;
+}
+
+.admin-theme ::-webkit-scrollbar-thumb:hover {
+  background: #f59e0b;
+}
+
+
+/* =====================================================
+   USER SCROLLBAR
+   ===================================================== */
+
+.user-theme ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.user-theme ::-webkit-scrollbar-track {
+  background: #f8fafc;
+}
+
+.user-theme ::-webkit-scrollbar-thumb {
+  background: #99f6e4;
+  border-radius: 10px;
+}
+
+.user-theme ::-webkit-scrollbar-thumb:hover {
+  background: #0d9488;
+}
+html,
+body,
+#root {
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* =====================================================
+   ADMIN WHITE THEME
+===================================================== */
+
+.admin-white-page {
+  background: #ffffff;
+  color: #0f172a;
+  min-height: 100vh;
+}
+
+/* Admin pages should use white as the main background */
+
+.admin-white-page .bg-zinc-950 {
+  background-color: #ffffff !important;
+}
+
+.admin-white-page .bg-zinc-900 {
+  background-color: #ffffff !important;
+}
+
+.admin-white-page .bg-zinc-800 {
+  background-color: #ffffff !important;
+}
+
+/* Text */
+
+.admin-white-page .text-white {
+  color: #0f172a !important;
+}
+
+.admin-white-page .text-zinc-100 {
+  color: #0f172a !important;
+}
+
+.admin-white-page .text-zinc-200 {
+  color: #1e293b !important;
+}
+
+.admin-white-page .text-zinc-300 {
+  color: #334155 !important;
+}
+
+.admin-white-page .text-zinc-400 {
+  color: #64748b !important;
+}
+
+.admin-white-page .text-zinc-500 {
+  color: #64748b !important;
+}
+
+/* Borders */
+
+.admin-white-page .border-zinc-800 {
+  border-color: #e2e8f0 !important;
+}
+
+.admin-white-page .border-zinc-700 {
+  border-color: #cbd5e1 !important;
+}
+
+/* Tables */
+
+.admin-white-page table {
+  background: #ffffff;
+}
+
+.admin-white-page thead {
+  background: #f8fafc;
+}
+
+.admin-white-page tbody tr {
+  background: #ffffff;
+}
+
+.admin-white-page tbody tr:hover {
+  background: #f8fafc !important;
+}
